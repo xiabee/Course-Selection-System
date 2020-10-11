@@ -1,0 +1,11 @@
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\bin\Debug\SCSystem.exe.config
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\bin\Debug\SCSystem.exe
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\bin\Debug\SCSystem.pdb
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.Form_SCT.resources
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.Form_login.resources
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.Properties.Resources.resources
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.csproj.GenerateResource.cache
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.csproj.CoreCompileInputs.cache
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.exe
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.pdb
+D:\文件\BIT\【课程】\大三上\数据库\code\lab3\SCSystem\obj\Debug\SCSystem.csprojAssemblyReference.cache

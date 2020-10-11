@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_yixuan" targetNamespace="http://tempuri.org/DataSet_yixuan.xsd" xmlns:mstns="http://tempuri.org/DataSet_yixuan.xsd" xmlns="http://tempuri.org/DataSet_yixuan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_yixuan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet_yixuan" msprop:Generator_DataSetName="DataSet_yixuan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Cou" msprop:Generator_TableClassName="CouDataTable" msprop:Generator_TableVarName="tableCou" msprop:Generator_TablePropName="Cou" msprop:Generator_RowDeletingName="CouRowDeleting" msprop:Generator_RowChangingName="CouRowChanging" msprop:Generator_RowEvHandlerName="CouRowChangeEventHandler" msprop:Generator_RowDeletedName="CouRowDeleted" msprop:Generator_UserTableName="Cou" msprop:Generator_RowChangedName="CouRowChanged" msprop:Generator_RowEvArgName="CouRowChangeEvent" msprop:Generator_RowClassName="CouRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cno" msprop:Generator_ColumnVarNameInTable="columncno" msprop:Generator_ColumnPropNameInRow="cno" msprop:Generator_ColumnPropNameInTable="cnoColumn" msprop:Generator_UserColumnName="cno">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cname" msprop:Generator_ColumnVarNameInTable="columncname" msprop:Generator_ColumnPropNameInRow="cname" msprop:Generator_ColumnPropNameInTable="cnameColumn" msprop:Generator_UserColumnName="cname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tname" msprop:Generator_ColumnVarNameInTable="columntname" msprop:Generator_ColumnPropNameInRow="tname" msprop:Generator_ColumnPropNameInTable="tnameColumn" msprop:Generator_UserColumnName="tname">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="credit" msprop:Generator_ColumnVarNameInTable="columncredit" msprop:Generator_ColumnPropNameInRow="credit" msprop:Generator_ColumnPropNameInTable="creditColumn" msprop:Generator_UserColumnName="credit" type="xs:int" />
+              <xs:element name="start_week" msprop:Generator_ColumnVarNameInTable="columnstart_week" msprop:Generator_ColumnPropNameInRow="start_week" msprop:Generator_ColumnPropNameInTable="start_weekColumn" msprop:Generator_UserColumnName="start_week" type="xs:int" />
+              <xs:element name="end_week" msprop:Generator_ColumnVarNameInTable="columnend_week" msprop:Generator_ColumnPropNameInRow="end_week" msprop:Generator_ColumnPropNameInTable="end_weekColumn" msprop:Generator_UserColumnName="end_week" type="xs:int" />
+              <xs:element name="start_time" msprop:Generator_ColumnVarNameInTable="columnstart_time" msprop:Generator_ColumnPropNameInRow="start_time" msprop:Generator_ColumnPropNameInTable="start_timeColumn" msprop:Generator_UserColumnName="start_time" type="xs:int" />
+              <xs:element name="end_time" msprop:Generator_ColumnVarNameInTable="columnend_time" msprop:Generator_ColumnPropNameInRow="end_time" msprop:Generator_ColumnPropNameInTable="end_timeColumn" msprop:Generator_UserColumnName="end_time" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Cou" />
+      <xs:field xpath="mstns:cno" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
